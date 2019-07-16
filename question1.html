@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question No.1</title>
+	<script type="text/javascript">
+		var n=prompt("Enter Number of elements");
+		var i,C=50,H=30,D=[],result=[];
+		for(i=0;i<n;i++)
+		{
+			D[i]=prompt("Enter The Elements");
+		}
+		for(i=0;i<n;i++)
+		{
+			Q=Math.sqrt((2*C*D[i])/H);
+		    result[i]=(Math.floor(Q));
+		}
+		document.write(result); 
+	</script>
+</head>
+<body>
+		<div id="t"></div>
+</body>
+</html>
