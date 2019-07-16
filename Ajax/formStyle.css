@@ -1,0 +1,47 @@
+body
+{
+	background: #323232;
+}
+#form-div
+{
+	    width: 350px;
+	    margin: auto;
+	    background:#00adee;
+		margin-top: 50px;
+		padding: 5px;
+}
+form
+{
+	        padding: 10px;
+			font-family: arial;
+			border: 1px dotted white;
+			margin: 1px;
+
+}
+#form-div div
+{
+	padding: 10px;
+	border-radius: 6px;
+}
+input[type=submit]
+{
+	background: orange;
+}
+input,select
+{
+	display: block;
+	padding: 10px;
+	width: 100%;
+}
+input[type=submit]:hover
+{
+	background-color: red;
+}
+h2
+			{
+				text-align: center;
+				background: orange;
+				color: white;
+				padding: 10px;
+				border-radius: 10px;
+			}
