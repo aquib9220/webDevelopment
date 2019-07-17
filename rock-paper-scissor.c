@@ -26,8 +26,8 @@ int selectSecondPlayer()
 void setupFirstPlayer()
 {
     label:
-        player1=rand()%4;                                     //  player1=computer
-        if(player1==0)                                        //  player2=you
+        player1=rand()%4;                                     
+        if(player1==0)                                        
             goto label;
     player2=selectSecondPlayer();
 }
@@ -44,8 +44,8 @@ void gameStart()
         else if(player1==2)
         {
             printf("\nCongratulation Player1 Win");
-            printf("\nPlayer1=Rock and Player2=Paper");                //  player1=computer
-        }                                                              //  player2=you
+            printf("\nPlayer1=Rock and Player2=Paper");               
+        }                                                              
         else
         {
             printf("\nCongratulation Player2 Win");
@@ -61,8 +61,8 @@ void gameStart()
         else if(player1==2)
         {
             printf("\nMatch Draw");
-            printf("\nPlayer1=Paper and Player2=Paper");              //player1=computer
-        }                                                             //player2=you
+            printf("\nPlayer1=Paper and Player2=Paper");              
+        }                                                             
         else
         {
             printf("\nCongratulation Player1 Win");
@@ -78,8 +78,8 @@ void gameStart()
         else if(player1==2)
         {
             printf("\nCongratulations Player2 Win");
-            printf("\nPlayer1=Scissor and Player2=Paper");               //player1=computer
-        }                                                                //player2=you
+            printf("\nPlayer1=Scissor and Player2=Paper");               
+        }                                                                
         else
         {
             printf("\nCongratulations Player2 Win");
